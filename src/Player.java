@@ -8,7 +8,7 @@ public abstract  class Player {
     // Methods
     public abstract int makeGuess();
     public  String getName(){
-        return this.name;
+        return this.name.toUpperCase();
     }
     public List<Integer> getGuesses(){
         return this.guesses;
