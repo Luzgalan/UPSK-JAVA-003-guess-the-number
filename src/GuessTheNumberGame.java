@@ -44,7 +44,7 @@ public class GuessTheNumberGame {
             }
         }while (!check);
     }
-    private static boolean checkGuess(Player player){
+    public static boolean checkGuess(Player player){
         int numberIngresado = player.makeGuess();
 
         player.insertNumber(numberIngresado);
