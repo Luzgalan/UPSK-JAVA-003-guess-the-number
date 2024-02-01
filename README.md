@@ -19,7 +19,7 @@ Bienvenido a Adivina el Número, un juego simple pero entretenido donde pondrás
 
 "Adivina el Número: Un Desafío de Intuición"
 
-![GUESS THE NUMBER DEMO](https://firebasestorage.googleapis.com/v0/b/personalluz-6461c.appspot.com/o/Grabaci%C3%B3n%20de%20pantalla%202024-01-31%20a%20la(s)%2016.44.11.gif?alt=media&token=7c46d6de-8da2-4cbc-9756-1f11833f389c)
+![GUESS THE NUMBER DEMO](./assets/Demo.gif)
 
 ## 3. Características del juego
 
