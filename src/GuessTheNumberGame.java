@@ -32,12 +32,14 @@ public class GuessTheNumberGame {
         int turno = 0;
         do {
             if(turno == 0 ){
+                System.out.println();
                 System.out.println(colorTextoCyan + "****************************************************************"+ resetColor);
                 System.out.println( " \uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDCBB \u001B[36m Turno de " + jugadoraHuman.getName() + resetColor);
                check = checkGuess(jugadoraHuman);
                turno = 1;
             } else {
-                System.out.println( colorTextoCyan+ "****************************************************************" + resetColor);
+                System.out.println();
+                System.out.println( "\033[37m" + "****************************************************************" + resetColor);
                 System.out.println(  "\uD83D\uDCBB \u001B[36m Turno de la computadora" + resetColor);
                 check = checkGuess(jugadorCompu);
                 turno = 0;
